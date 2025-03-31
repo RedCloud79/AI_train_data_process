@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 from ultralytics import YOLO
 
-model_path = r"C:/Users/mandu/Desktop/ai_data_video/runs/detect/train21/weights/best.pt"
+model_path = r"C:/Users/mandu/Desktop/ai_data_video/yolo11m.pt"
 model = YOLO(model_path)
 
 image_folder = r"C:/Users/mandu/Desktop/ai_data_video/labeling_image/change_test" 
