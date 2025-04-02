@@ -2,8 +2,8 @@ import os
 from pathlib import Path
 
 # 원본 라벨 폴더 및 변환된 라벨 저장 폴더 경로
-label_folder = Path(r"C:/Users/mandu/Desktop/coco_dataset_yolo/train/labels")
-output_folder = Path(r"C:/Users/mandu/Desktop/coco_dataset_yolo/train/labels_trans")
+label_folder = Path(r"C:/Users/mandu/Desktop/coco_dataset_yolo/val/labels")
+output_folder = Path(r"C:/Users/mandu/Desktop/coco_dataset_yolo/val/labels_trans")
 output_folder.mkdir(exist_ok=True)  # 저장 폴더 생성
 
 # 클래스 매핑 (변환 규칙)

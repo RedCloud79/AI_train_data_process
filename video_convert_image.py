@@ -25,7 +25,7 @@ def extract_frames(video_path, output_dir, frames_per_second):
             break
 
         if frame_count % frame_interval == 0:
-            filename = os.path.join(output_dir, f"mapo_picture12_{saved_count:05d}.jpg").replace("\\", "/")
+            filename = os.path.join(output_dir, f"mapo_electric_bulb_13_{saved_count:05d}.jpg").replace("\\", "/")
             if cv2.imwrite(filename, frame):
                 saved_count += 1
         
@@ -34,9 +34,9 @@ def extract_frames(video_path, output_dir, frames_per_second):
     cap.release()
     print(f"{saved_count}save the images.")
 
-video_path = "C:/Users/mandu/Desktop/mapo_add_Light/irop-piro-fe01-c720_02i1y7.mp4"
+video_path = "C:/Users/mandu/Desktop/mapo_eletLight_data/irop-piro-fe01-c720_y0em6u.mp4"
 # video_path = "C:/Users/mandu/Desktop/ai_data_video/longger_video/rgb_2024-01-26_03-08-54.mp4"
-output_dir = "C:/Users/mandu/Desktop/mapo_add_Light/image_data/mapo_picture12/"
+output_dir = "C:/Users/mandu/Desktop/mapo_eletLight_data/image_data/images_13/"
 frames_per_second = 2
 
 extract_frames(video_path, output_dir, frames_per_second)

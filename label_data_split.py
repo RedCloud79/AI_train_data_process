@@ -2,9 +2,9 @@ import os
 import shutil
 import random
 
-image_dir = "C:/Users/mandu/Desktop/ai_data_video/mapo_fire_data/images"
-label_dir = "C:/Users/mandu/Desktop/ai_data_video/mapo_fire_data/labels"
-output_dir = "C:/Users/mandu/Desktop/ai_data_video/mapo_fire_data/mapo_fire_dataset"
+image_dir = "C:/Users/mandu/Desktop/mapo_Light_data/images"
+label_dir = "C:/Users/mandu/Desktop/mapo_Light_data/labels"
+output_dir = "C:/Users/mandu/Desktop/mapo_Light_data/mapo_light_dataset"
 
 # 데이터 분할 비율
 train_ratio = 0.7
