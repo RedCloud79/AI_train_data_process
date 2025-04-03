@@ -2,8 +2,8 @@ import os
 
 # images_dir = "C:/Users/mandu/Desktop/ai_data_video/market_hight_train_v14/valid/images"
 # labels_dir = "C:/Users/mandu/Desktop/ai_data_video/market_hight_train_v14/valid/labels"
-images_dir = "C:/Users/mandu/Desktop/mapo_Light_data/images"
-labels_dir = "C:/Users/mandu/Desktop/mapo_Light_data/labels"
+images_dir = "C:/Users/mandu/Desktop/coco_data/valid/images"
+labels_dir = "C:/Users/mandu/Desktop/coco_data/valid/labels"
 def get_file_names(directory):
     return {os.path.splitext(f)[0] for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))}
 
