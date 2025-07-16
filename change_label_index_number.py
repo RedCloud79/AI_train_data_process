@@ -4,19 +4,13 @@ from pathlib import Path
 # 원본 라벨 폴더 및 변환된 라벨 저장 폴더 경로
 # label_folder = Path(r"C:/Users/mandu/Desktop/coco_dataset_yolo/test/labels")
 # output_folder = Path(r"C:/Users/mandu/Desktop/coco_dataset_yolo/test/labels_trans")
-label_folder = Path(r"C:/Users/mandu/Desktop/ai_data_video/fire_dataset_auto_label_v4/test/labels")
-output_folder = Path(r"C:/Users/mandu/Desktop/ai_data_video/fire_dataset_auto_label_v4/test/labels_trans")
+label_folder = Path(r"C:/Users/mandu/Desktop/Baton2.0.v5i.yolov11/valid/labels")
+output_folder = Path(r"C:/Users/mandu/Desktop/Baton2.0.v5i.yolov11/valid/labels_trans")
 output_folder.mkdir(exist_ok=True)  # 저장 폴더 생성
 
 # 클래스 매핑 (변환 규칙)
 class_mapping = {
-    0: 80,
-    1: 80,
-    3: 81,
-    4: 82,
-    5: 83,
-    6: 84,
-    7: 85,
+    0: 11,
 }
 
 def process_labels():

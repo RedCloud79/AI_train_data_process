@@ -2,15 +2,15 @@ import os
 import shutil
 
 # 원본 데이터 경로
-images_dir = "C:/Users/mandu/Desktop/fire_dataset_auto_label_v4/valid/images"
-labels_dir = "C:/Users/mandu/Desktop/fire_dataset_auto_label_v4/valid/labels"
+images_dir = "C:/Users/mandu/Desktop/coco_data/valid/images"
+labels_dir = "C:/Users/mandu/Desktop/coco_data/valid/labels"
 
 # 저장할 폴더 경로
-check_labels_dir = "C:/Users/mandu/Desktop/fire_dataset_auto_label_v4/valid/check_labels"
-check_images_dir = "C:/Users/mandu/Desktop/fire_dataset_auto_label_v4/valid/check_images"
+check_labels_dir = "C:/Users/mandu/Desktop/coco_data/valid/check_labels"
+check_images_dir = "C:/Users/mandu/Desktop/coco_data/valid/check_images"
 
 # 선택할 클래스 ID
-selected_classes = {8, 9, 10}
+selected_classes = {0, 10}
 
 # 폴더 생성
 os.makedirs(check_labels_dir, exist_ok=True)

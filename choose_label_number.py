@@ -2,16 +2,23 @@ import os
 from pathlib import Path
 
 # 원본 라벨 폴더 및 변환된 라벨 저장 폴더 경로
-label_folder = Path(r"C:/Users/mandu/Desktop/market_hight_train_v14/valid/labels")
-output_folder = Path(r"C:/Users/mandu/Desktop/market_hight_train_v14/valid/labels_trans")
+label_folder = Path(r"C:/Users/mandu/Desktop/fire_dataset_auto_label_v4/valid/labels")
+output_folder = Path(r"C:/Users/mandu/Desktop/fire_dataset_auto_label_v4/valid/labels_trans")
 output_folder.mkdir(exist_ok=True)  # 저장 폴더 생성
 
 # 클래스 매핑 (변환 규칙)
 class_mapping = {
-    0: 2,  
-    1: 3,
-    2: 86,
-    3: 87,
+    0: 1,  
+    1: 1,
+    2: 1,
+    3: 2,
+    4: 3,
+    5: 4,
+    6: 5,
+    7: 6,
+    8: 7,
+    9: 8,
+    10: 9,
 }
 
 def process_labels():

@@ -33,5 +33,5 @@ def check_label_consistency(label_dir):
     return inconsistent_files
 
 # 사용 예시
-label_path = "C:/Users/mandu/Desktop/integration_model_v1/train/labels"
+label_path = "C:/Users/mandu/Desktop/fire_dataset_auto_label_v4/train/check_labels"
 check_label_consistency(label_path)

@@ -1,7 +1,7 @@
 import os
 
-images_dir = "C:/Users/mandu/Desktop/market_hight_train_v14/test/images"
-labels_dir = "C:/Users/mandu/Desktop/market_hight_train_v14/test/labels"
+images_dir = "C:/Users/mandu/Desktop/fire_dataset_auto_label_v4/valid/images"
+labels_dir = "C:/Users/mandu/Desktop/fire_dataset_auto_label_v4/valid/labels"
 # images_dir = "C:/Users/mandu/Desktop/ai_data_video/fire_dataset_auto_label_v4/valid/images"
 # labels_dir = "C:/Users/mandu/Desktop/ai_data_video/fire_dataset_auto_label_v4/valid/labels"
 def get_file_names(directory):
