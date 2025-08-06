@@ -90,3 +90,10 @@ names:
   85: sunlight
   86: stove
   87: electric bulb
+
+
+### labeling program
+* 참고 링크
+---
+https://velog.io/@kimsoohyun/YOLO-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%9D%BC%EB%B2%A8%EB%A7%81%EC%9D%84-%EC%9C%84%ED%95%9C-labelImg-%EC%82%AC%EC%9A%A9%EB%B2%95
+---
